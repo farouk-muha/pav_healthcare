@@ -1,0 +1,40 @@
+{
+ "add_total_row": 0,
+ "creation": "2022-04-20 00:12:08.875141",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "New Letterhead",
+ "modified": "2022-04-20 00:12:50.970554",
+ "modified_by": "Administrator",
+ "module": "PAV Healthcare",
+ "name": "Detailed Marketers Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Sales Invoice",
+ "report_name": "Detailed Marketers Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "Auditor"
+  },
+  {
+   "role": "\u0627\u0644\u062a\u0633\u0648\u064a\u0642"
+  },
+  {
+   "role": "\u0645\u062d\u0627\u0633\u0628 \u0627\u0644\u0646\u0633\u0628"
+  },
+  {
+   "role": "\u0635\u0644\u0627\u062d\u064a\u0629 \u0627\u0644\u0645\u0633\u0648\u0642"
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "allow_copy": 1,
+ "creation": "2022-01-18 22:23:35.907259",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "posting_date",
+  "sales_invoice",
+  "sales_invoice_item",
+  "column_break_4",
+  "item_group",
+  "item_code",
+  "item_name",
+  "section_break_8",
+  "patient",
+  "patient_name",
+  "column_break_11",
+  "sales_partner",
+  "healthcare_practitioner",
+  "patient_medical_record",
+  "section_break_15",
+  "cartoon_film_status",
+  "cartoon_count",
+  "laser_film_status",
+  "laser_count",
+  "column_break_18",
+  "cd_status",
+  "cd_count",
+  "dvd_status",
+  "dvd_count",
+  "column_break_21",
+  "report_status",
+  "column_break_23",
+  "delivery_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_invoice",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Sales Invoice",
+   "options": "Sales Invoice",
+   "read_only": 1
+  },
+  {
+   "fieldname": "item_group",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Item Group",
+   "options": "Item Group",
+   "read_only": 1
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Item Code",
+   "options": "Item",
+   "read_only": 1
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Item Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Patient",
+   "options": "Patient",
+   "read_only": 1
+  },
+  {
+   "fieldname": "patient_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Patient Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "patient_medical_record",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Patient Medical Record",
+   "options": "Patient Medical Record",
+   "read_only": 1
+  },
+  {
+   "fieldname": "healthcare_practitioner",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Healthcare Practitioner",
+   "options": "Healthcare Practitioner",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sales_partner",
+   "fieldtype": "Link",
+   "label": "Sales Partner",
+   "options": "Sales Partner",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "cartoon_film_status",
+   "fieldtype": "Check",
+   "in_standard_filter": 1,
+   "label": "Cartoon Film Status"
+  },
+  {
+   "default": "0",
+   "fieldname": "laser_film_status",
+   "fieldtype": "Check",
+   "in_standard_filter": 1,
+   "label": "Laser Film Status"
+  },
+  {
+   "default": "0",
+   "fieldname": "cd_status",
+   "fieldtype": "Check",
+   "in_standard_filter": 1,
+   "label": "CD Status"
+  },
+  {
+   "default": "0",
+   "fieldname": "dvd_status",
+   "fieldtype": "Check",
+   "in_standard_filter": 1,
+   "label": "DVD Status"
+  },
+  {
+   "default": "0",
+   "fieldname": "report_status",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Report Status",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "delivery_status",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Delivery Status"
+  },
+  {
+   "fieldname": "sales_invoice_item",
+   "fieldtype": "Data",
+   "label": "Sales Invoice Item",
+   "read_only": 1
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Posting Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cartoon_count",
+   "fieldtype": "Int",
+   "label": "Cartoon Count"
+  },
+  {
+   "fieldname": "laser_count",
+   "fieldtype": "Int",
+   "label": "Laser Count"
+  },
+  {
+   "fieldname": "cd_count",
+   "fieldtype": "Int",
+   "label": "CD Count"
+  },
+  {
+   "fieldname": "dvd_count",
+   "fieldtype": "Int",
+   "label": "DVD Count"
+  }
+ ],
+ "modified": "2022-03-08 16:46:29.753602",
+ "modified_by": "Administrator",
+ "module": "PAV Healthcare",
+ "name": "Sales Invoice Item Status",
+ "owner": "support-team@partner-cons.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "item_name",
+ "track_changes": 1
+}

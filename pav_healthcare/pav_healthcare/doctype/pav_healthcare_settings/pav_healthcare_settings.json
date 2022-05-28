@@ -1,0 +1,116 @@
+{
+ "creation": "2021-10-11 10:54:34.304635",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "transaction_currency",
+  "sales_partner_account",
+  "healthcare_practitioner_account",
+  "sales_partner_marketer_account",
+  "additional_amount_account",
+  "default_cost_center",
+  "allow_multi_pmr_si_item",
+  "technical_role",
+  "reporter_role",
+  "reception_role",
+  "enable_sales_invoice_item_status",
+  "enable_roles"
+ ],
+ "fields": [
+  {
+   "fieldname": "transaction_currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "sales_partner_account",
+   "fieldtype": "Link",
+   "label": "Sales Partner Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "healthcare_practitioner_account",
+   "fieldtype": "Link",
+   "label": "Healthcare Practitioner Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "sales_partner_marketer_account",
+   "fieldtype": "Link",
+   "label": "Sales Partner Marketer Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "additional_amount_account",
+   "fieldtype": "Link",
+   "label": "Additional Amount Account",
+   "options": "Account"
+  },
+  {
+   "default": "0",
+   "fieldname": "allow_multi_pmr_si_item",
+   "fieldtype": "Check",
+   "label": "Allow Multi Patient Medical Record for SI Item"
+  },
+  {
+   "fieldname": "default_cost_center",
+   "fieldtype": "Link",
+   "label": "Default Cost Center",
+   "options": "Cost Center"
+  },
+  {
+   "fieldname": "technical_role",
+   "fieldtype": "Link",
+   "label": "Technical Role",
+   "options": "Role"
+  },
+  {
+   "fieldname": "reporter_role",
+   "fieldtype": "Link",
+   "label": "Reporter Role",
+   "options": "Role"
+  },
+  {
+   "fieldname": "reception_role",
+   "fieldtype": "Link",
+   "label": "Reception Role",
+   "options": "Role"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_sales_invoice_item_status",
+   "fieldtype": "Check",
+   "label": "Enable Sales Invoice Item Status"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_roles",
+   "fieldtype": "Check",
+   "label": "Enable Roles"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2022-01-18 23:24:27.622769",
+ "modified_by": "Administrator",
+ "module": "PAV Healthcare",
+ "name": "PAV Healthcare Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
